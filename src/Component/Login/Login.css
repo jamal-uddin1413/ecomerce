@@ -1,0 +1,12 @@
+.Login-btn{
+    background-color: burlywood;
+    padding: 5px 25px;
+    font-size: 25px;
+    font-weight: bold;
+    border-color: coral;
+    border-radius: 5px;
+}
+.Login-btn :hover{
+    background-color: antiquewhite;
+    color: black;
+}

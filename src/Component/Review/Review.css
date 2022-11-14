@@ -1,0 +1,9 @@
+.review{
+    display: flex;
+    
+}
+
+.reviewProduct{
+    width: 70%;
+    border-right: 1px solid black;
+}

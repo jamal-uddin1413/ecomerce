@@ -1,0 +1,19 @@
+.header img{
+    height: 150px;
+}
+.header nav{
+    background-color: black;
+    line-height: 40px;
+    
+}
+nav a{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-right: 1px solid ghostwhite;
+    font-weight: bold;
+    color: whitesmoke;
+}
+nav a:hover{
+    background-color: aliceblue;
+    color: black;
+}
