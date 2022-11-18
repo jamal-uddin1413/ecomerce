@@ -15,6 +15,7 @@ import { createContext } from 'react';
 import { useState } from 'react';
 import Shipment from './Component/Shipment/Shipment';
 import PrivateRoute from './PrivateRoute/PrivateRoute';
+import Inventory from './Component/Inventory/Inventory';
 
 export const userContext = createContext()
 function App() {
@@ -34,6 +35,7 @@ function App() {
             <Route path='*' element={<PageNotFound />} />
             <Route path='/login' element={<Login />} />
             <Route path='/shipment/*' element={<PrivateRoute><Shipment/></PrivateRoute>} />
+            <Route path='/inventory/*' element={<PrivateRoute><Inventory/></PrivateRoute>} />
           </Routes>
         </Router>
       </userContext.Provider>

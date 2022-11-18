@@ -17,3 +17,12 @@ nav a:hover{
     background-color: aliceblue;
     color: black;
 }
+.btn{
+    border: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+.btn :hover{
+    background-color: whitesmoke;
+    color: black;
+}
